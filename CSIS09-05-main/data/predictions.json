@@ -1,0 +1,68 @@
+{
+  "user@gmail.com": [
+    {
+      "id": "2af3c163-5bf9-46fa-8b6a-982b8d7b34ec",
+      "timestamp": "2026-05-09T22:34:42.628080+00:00",
+      "profile": {
+        "gender": "Homme",
+        "age": 30,
+        "neighborhood_quality": "Moyen",
+        "neighborhood_safety_rating": 5,
+        "academic_level": "Lycee",
+        "parental_education": "Primaire",
+        "family_situation": "Celibataire",
+        "parental_marital_status": "Maries",
+        "family_criminal_history": "Non",
+        "family_psychological_issues": "Non",
+        "friend_in_jail": "Non",
+        "has_psychological_problem": "Non",
+        "psychological_condition": "Aucun",
+        "mental_health_treatment": "Aucun",
+        "financial_situation": "Moyenne",
+        "debt_level": "Faible",
+        "employment_status": "Employe",
+        "addiction_type": "Aucune"
+      },
+      "result": {
+        "risk_percent": 19.26,
+        "decision": "Pas de futur criminel",
+        "predicted_crime_type": "Pas de futur criminel"
+      },
+      "name": "Montasser agrebi",
+      "notes": "",
+      "control": ""
+    },
+    {
+      "id": "a5eff30f-1705-401b-8fd6-4658f47e431c",
+      "timestamp": "2026-05-09T17:45:39.020532+00:00",
+      "profile": {
+        "gender": "Homme",
+        "age": 77,
+        "neighborhood_quality": "Moyen",
+        "neighborhood_safety_rating": 5,
+        "academic_level": "Lycee",
+        "parental_education": "Secondaire",
+        "family_situation": "Marie(e)",
+        "parental_marital_status": "Maries",
+        "family_criminal_history": "Non",
+        "family_psychological_issues": "Non",
+        "friend_in_jail": "Oui",
+        "has_psychological_problem": "Non",
+        "psychological_condition": "Aucun",
+        "mental_health_treatment": "Medicaments",
+        "financial_situation": "Moyenne",
+        "debt_level": "Faible",
+        "employment_status": "Employe",
+        "addiction_type": "Aucune"
+      },
+      "result": {
+        "risk_percent": 19.77,
+        "decision": "Pas de futur criminel",
+        "predicted_crime_type": "Pas de futur criminel"
+      },
+      "name": "Fathi jlassi",
+      "notes": "",
+      "control": ""
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+.csis-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 600px;
+  background: linear-gradient(135deg, #e8f2ff 0%, #d4e6ff 50%, #c0daf0 100%);
+  padding: 60px 20px;
+}
+
+.csis-hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+  max-width: 600px;
+}
+
+.csis-hero-logo {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.csis-hero-title {
+  font-size: 64px;
+  font-weight: 800;
+  color: #1a3a5c;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.csis-hero-subtitle {
+  font-size: 18px;
+  color: #5a7a9a;
+  margin: 0;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .csis-hero {
+    min-height: 500px;
+    padding: 40px 20px;
+  }
+
+  .csis-hero-logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .csis-hero-title {
+    font-size: 48px;
+  }
+
+  .csis-hero-subtitle {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .csis-hero {
+    min-height: 400px;
+    padding: 30px 15px;
+  }
+
+  .csis-hero-content {
+    gap: 20px;
+  }
+
+  .csis-hero-title {
+    font-size: 36px;
+  }
+
+  .csis-hero-subtitle {
+    font-size: 12px;
+  }
+}

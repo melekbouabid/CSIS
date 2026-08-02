@@ -1,0 +1,74 @@
+================================================================
+  CSIS PLATFORM — GUIDE DE LANCEMENT
+================================================================
+
+PRÉREQUIS
+---------
+- Python installé (avec uvicorn, fastapi, groq, etc.)
+- Node.js installé
+- Connexion Internet (pour l'IA Groq et la dictée vocale)
+
+
+ÉTAPE 1 — DÉMARRER LE BACKEND (API Python)
+-------------------------------------------
+Ouvrir un terminal PowerShell dans le dossier du projet :
+
+  C:\Users\LENOVO\Desktop\CSIS09-05-main
+
+Puis exécuter :
+
+  uvicorn app_fastapi:app --host 127.0.0.1 --port 8000
+
+Laisser ce terminal ouvert. Le backend tourne sur :
+  http://127.0.0.1:8000
+
+
+ÉTAPE 2 — DÉMARRER LE FRONTEND (React / Vite)
+----------------------------------------------
+Ouvrir un DEUXIÈME terminal PowerShell dans le dossier :
+
+  C:\Users\LENOVO\Desktop\CSIS09-05-main\frontend
+
+Puis exécuter :
+
+  npm run dev
+
+Laisser ce terminal ouvert. Le frontend tourne sur :
+  http://localhost:5173
+
+
+ÉTAPE 3 — OUVRIR LE SITE
+-------------------------
+Dans votre navigateur (Chrome ou Edge recommandé), aller à :
+
+  http://localhost:5173
+
+
+COMPTES DE CONNEXION
+--------------------
+  Rôle Admin      → Email : admin@gmail.com       Mot de passe : admin
+  Rôle Thérapeute → Email : therapist@gmail.com   Mot de passe : therapist
+
+
+LANCEMENT RAPIDE (alternative)
+-------------------------------
+Double-cliquer sur le fichier :
+
+  start_servers.bat
+
+Cela ouvre les deux terminaux automatiquement.
+Ensuite ouvrir : http://localhost:5173
+
+
+REMARQUES
+---------
+- La dictée vocale (bouton "Dicter") nécessite Chrome/Edge et une
+  connexion Internet active (l'audio est transcrit par l'IA Groq Whisper).
+- Si le port 5173 est occupé, Vite utilise automatiquement le port 5174.
+  Dans ce cas, ouvrir : http://localhost:5174
+- Pour arrêter les serveurs : appuyer sur Ctrl+C dans chaque terminal.
+- Après toute mise à jour du code Python, REDÉMARRER le backend :
+    Ctrl+C dans le terminal du backend, puis relancer :
+    uvicorn app_fastapi:app --host 127.0.0.1 --port 8000
+
+================================================================

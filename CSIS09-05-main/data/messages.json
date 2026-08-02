@@ -1,0 +1,22 @@
+[
+  {
+    "id": "65f2923d-26cc-4529-abbd-413742baa4a5",
+    "from_email": "admin@gmail.com",
+    "from_name": "Admin",
+    "from_role": "admin",
+    "to_email": "therapist@gmail.com",
+    "content": "good morning , the test is already prepared",
+    "timestamp": "2026-06-12T19:49:53.594635+00:00",
+    "read": true
+  },
+  {
+    "id": "5f50df11-59bb-4a2c-a570-e810cb3b6e04",
+    "from_email": "therapist@gmail.com",
+    "from_name": "Therapist",
+    "from_role": "therapist",
+    "to_email": "admin@gmail.com",
+    "content": "hello thank you",
+    "timestamp": "2026-06-12T19:50:06.933061+00:00",
+    "read": true
+  }
+]
